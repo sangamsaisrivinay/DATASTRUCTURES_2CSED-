@@ -22,7 +22,7 @@ public class selectionsort{
 		b[i]=a[i];
 		for(int i=0;i<size;i++){
 			int initialindex=i;
-			int finalindex=compare(a,i);
+			int finalindex=compare(b,i);
 			if(initialindex!=finalindex){
 				int temp=b[initialindex];
 				b[initialindex]=b[finalindex];
@@ -34,12 +34,12 @@ public class selectionsort{
 		System.out.print(i+" ");
 	}
 	public static int compare(int a[],int i){
+		int ind = i;
 		for(int j=i+1;j<a.length;j++){
-			if(a[i]>a[j]){
-				i=j;
-				compare(a,i);
+			if(a[ind]>a[j]){
+				ind=j;
 			}
 		}
-		return i;
+		return ind;
 	}
 }
