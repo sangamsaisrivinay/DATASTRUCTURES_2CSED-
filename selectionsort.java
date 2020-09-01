@@ -23,7 +23,7 @@ public class selectionsort{
 		for(int i=0;i<size;i++){
 			int initialindex=i;
 			int finalindex=compare(a,i);
-			if(initialindex==finalindex){
+			if(initialindex!=finalindex){
 				int temp=b[initialindex];
 				b[initialindex]=b[finalindex];
 				b[finalindex]=temp;
