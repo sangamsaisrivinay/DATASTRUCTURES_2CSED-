@@ -5,7 +5,7 @@ public class arrayoperations {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter size of array");
         int size = sc.nextInt();
-        int a[] = new int[size];
+        int a[] = new int[size+1];
         System.out.println("enter elements of the array");
         for (int i = 0; i < size; i++) {
             System.out.printf("enter %d element of the array", i + 1);
