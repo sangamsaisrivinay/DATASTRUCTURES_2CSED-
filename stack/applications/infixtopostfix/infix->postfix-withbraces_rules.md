@@ -6,4 +6,4 @@ operator precedence is not considered in braced expressions
  . ) ->push the operators to output till the most recent ( is encountered and pop that ( from the stack
 </pre>
 example
-<img src="https://prepinsta.com/wp-content/uploads/2020/06/Infix-to-Posting-Conversion-in-C-using-Stacks.png" alt="not able to load the image">
+<img src="https://prepinsta.com/wp-content/uploads/2020/07/Infix-to-postfix-conversion.webp">
